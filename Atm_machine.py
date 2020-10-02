@@ -137,6 +137,7 @@ if pin==atm_pin:
     print("4. Change your pin")
     print("5. Transfer Money")
     print("6. Quit")
+    print("\n\n\t\t\t\t\t\tProject by Sameeksha Singh. Happy ATM Withdrawal")
     trans=int(input("transation: "))
     time.sleep(2)
     if trans==1:
@@ -152,7 +153,7 @@ if pin==atm_pin:
     elif trans==6:
         return Quit()
     else:
-        speak("please enter a valid option")
+        speak("please enter a valid option!")
    
             
 else:
